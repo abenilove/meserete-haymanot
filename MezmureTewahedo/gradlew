@@ -1,7 +1,8 @@
 #!/bin/sh
 set -e
 PRG="$0"
-while [ -h "$PRG" ]; do
+while [ -h "$PRG" ]
+do
   ls -ld "$PRG"
   link=`expr "$PRG" : '.*-> \(.*\)$'`
   if expr "$link" : '/.*' > /dev/null; then
@@ -11,8 +12,8 @@ while [ -h "$PRG" ]; do
   fi
 done
 SAVED="`pwd`"
-cd "`dirname "$PRG"`" > /dev/null
+cd "`dirname "$PRG"`"
 APP_HOME="`pwd -P`"
-cd "$SAVED" > /dev/null
+cd "$SAVED"
 CLASSPATH="$APP_HOME/gradle/wrapper/gradle-wrapper.jar"
 exec java -cp "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
