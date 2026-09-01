@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">መዝሙረ ተዋሕዶ</string>
+    <string name="search_hint">መዝሙር ወይም ግጥም ፈልግ…</string>
+    <string name="add_edit_title">መዝሙር አክል / አርትዕ</string>
+    <string name="action_add">አክል</string>
+    <string name="action_sync">አዲስ ፋይሎችን አስመጣ</string>
+    <string name="action_favorite">ተወዳጅ</string>
+    <string name="action_share">አጋራ</string>
+    <string name="action_edit">አርትዕ</string>
+    <string name="action_delete">ሰርዝ</string>
+    <string name="field_title">የመዝሙሩ ርዕስ</string>
+    <string name="field_category">ምድብ (ለምሳሌ፦ የልደት መዝሙራት)</string>
+    <string name="field_lyrics">ግጥም</string>
+    <string name="action_save">አስቀምጥ</string>
+    <string name="action_cancel">ይቅር</string>
+    <string name="empty_state">ምንም መዝሙር አልተገኘም</string>
+    <string name="import_folder_hint">አዳዲስ ግጥሞችን ለማከል የጽሑፍ ፋይል (.txt) በዚህ ማህደር ውስጥ ያስቀምጡ፦\n%1$s\n\nየፋይሉ የመጀመሪያ መስመር የመዝሙሩ ርዕስ ይሆናል።</string>
+    <string name="imported_count">%1$d አዲስ መዝሙር ገብቷል</string>
+    <string name="no_new_files">ምንም አዲስ ፋይል አልተገኘም</string>
+    <string name="delete_confirm_title">መዝሙሩን ሰርዝ?</string>
+    <string name="delete_confirm_message">ይህ ድርጊት መልሶ ሊቀር አይችልም።</string>
+    <string name="yes">አዎ</string>
+    <string name="no">አይ</string>
+    <string name="all_hymns">ሁሉም መዝሙራት</string>
+    <string name="favorites">ተወዳጅ መዝሙራት</string>
+    <string name="hymn_count_fmt">%1$d መዝሙራት</string>
+    <string name="menu_import_help">የማህደር መመሪያ</string>
+</resources>

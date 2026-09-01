@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gold_100"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingTop="14dp"
+    android:paddingEnd="12dp"
+    android:paddingBottom="14dp">
+
+    <TextView
+        android:id="@+id/textCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/maroon_900"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="የልደት መዝሙራት" />
+
+    <TextView
+        android:id="@+id/textCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/ink_600"
+        android:textSize="13sp"
+        tools:text="33" />
+
+    <ImageView
+        android:id="@+id/imageChevron"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:src="@drawable/ic_expand_more"
+        app:tint="@color/maroon_800"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

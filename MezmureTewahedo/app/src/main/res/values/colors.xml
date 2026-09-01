@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="maroon_900">#4A0E0E</color>
+    <color name="maroon_800">#5E1414</color>
+    <color name="maroon_700">#7A1B1B</color>
+    <color name="maroon_600">#8F2323</color>
+    <color name="gold_500">#D4A93A</color>
+    <color name="gold_400">#E4C066</color>
+    <color name="gold_100">#F7ECD2</color>
+    <color name="cream_bg">#FBF6EC</color>
+    <color name="ink_900">#221410</color>
+    <color name="ink_600">#5A453D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="divider">#E6D9BE</color>
+    <color name="favorite_gold">#C9971F</color>
+</resources>
