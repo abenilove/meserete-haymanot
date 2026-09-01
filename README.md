@@ -1,0 +1,2 @@
+# meserete-haymanot
+mezmur debter
